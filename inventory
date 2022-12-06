@@ -1,0 +1,6 @@
+[ubuntu]
+server_1 ansible_connection=ssh  ansible_user=userver  apache_package=apache2  php_package=libapache2-mod-php
+Server_2 ansible_connection=ssh  ansible_user=userver  apache_package=apache2  php_package=libapache2-mod-php
+[cent-os]
+Cent-OS ansible_connection=ssh  ansible_user=centos  apache_package=httpd    php_package=php
+
